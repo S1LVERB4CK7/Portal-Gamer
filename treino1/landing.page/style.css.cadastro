@@ -1,0 +1,70 @@
+.register-container {
+  background: rgba(0, 0, 0, 0.85);
+  border: 1px solid cyan;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  box-shadow: 0 0 25px #0ff5;
+  text-align: center;
+}
+
+.register-container h2 {
+  color: cyan;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 15px cyan;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+label {
+  text-align: left;
+  font-family: 'Rajdhani', sans-serif;
+  color: #0ff;
+  margin-bottom: 8px;
+  font-size: 16px;
+  text-shadow: 0 0 10px #0ff5;
+}
+
+input {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #0ff;
+  background: #0a0a0a;
+  color: #0ff;
+  font-size: 16px;
+  box-shadow: 0 0 10px #0ff2 inset;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+input:focus {
+  box-shadow: 0 0 20px #0ff, 0 0 30px #0ff2 inset;
+  outline: none;
+  transform: scale(1.02);
+}
+
+.create-account-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0ff;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.create-account-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #0ff, 0 0 60px #0ff;
+}
